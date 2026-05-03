@@ -1,4 +1,5 @@
-# BAITAPSO2-HOANG VAN TAI
+# BAITAPSO2
+Hoàng Văn Tài
 MSSV .K235480106062 
 Đề Tài . Quản lý sinh viên
 
