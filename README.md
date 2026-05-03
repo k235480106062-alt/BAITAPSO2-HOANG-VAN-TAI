@@ -52,6 +52,7 @@ CREATE TABLE [Khoa] (
     [TenKhoa] NVARCHAR(100) NOT NULL
 );
 -- Bảng SinhVien
+
 CREATE TABLE [SinhVien] (
 
     [MaSV] INT PRIMARY KEY, -- PK
@@ -110,33 +111,51 @@ CREATE TABLE [KetQua] (
 -- Khoa
 
 INSERT INTO [Khoa] VALUES
+
 (1, N'Công nghệ thông tin'),
+
 (2, N'Kinh tế'),
+
 (3, N'Ngôn ngữ');
+
 -- Sinh viên
 INSERT INTO [SinhVien] VALUES
+
 (1, N'Hoàng Văn Tài', '2005-06-11', N'Nam', '0964636694', 1),
+
 (2, N'Nguyễn Văn A', '2004-02-10', N'Nam', '0912345678', 1),
+
 (3, N'Trần Thị B', '2003-08-20', N'Nữ', '0987654321', 2);
 
 -- Môn học
 INSERT INTO [MonHoc] VALUES
+
 (1, N'Lập trình Python', 3),
+
 (2, N'Cơ sở dữ liệu', 3),
+
 (3, N'Tiếng Anh', 2);
 
 -- Kết quả
 INSERT INTO [KetQua] VALUES
+
 (1, 1, 8.5),
+
 (1, 2, 7.0),
+
 (2, 1, 6.5),
+
 (3, 3, 9.0);
 
 -- 3. KIỂM TRA DỮ LIỆU
+
 SELECT * FROM [Khoa];
+
 SELECT * FROM [SinhVien];
+
 SELECT * FROM [MonHoc];
 SELECT * FROM [KetQua];
+
 
 - ảnh chạy ra kết quả
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b77752e7-2e8c-4e79-8640-7df92d0ac2d6" />
